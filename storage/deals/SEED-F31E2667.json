@@ -1,0 +1,76 @@
+{
+  "deal_id": "SEED-F31E2667",
+  "status": "Approved",
+  "email_metadata": {
+    "sender": "test@example.com",
+    "subject": "Test Deal"
+  },
+  "raw_pdf_path": "",
+  "split_docs": [],
+  "property_address": "123 Test Street, Denver, CO 80202",
+  "property_details": {
+    "street_number": "123",
+    "street_name": "Test Street",
+    "city": "Denver",
+    "state": "CO",
+    "zip_code": "80202",
+    "country": "US",
+    "full_address": "123 Test Street, Denver, CO 80202"
+  },
+  "buyers": [
+    "John Buyer"
+  ],
+  "sellers": [
+    "Jane Seller"
+  ],
+  "participants": [
+    {
+      "full_name": "John Buyer",
+      "email": "buyer@example.com",
+      "phone": "555-123-4567",
+      "role": "BUYER"
+    },
+    {
+      "full_name": "Jane Seller",
+      "email": "seller@example.com",
+      "phone": "555-987-6543",
+      "role": "SELLER"
+    }
+  ],
+  "financials": {
+    "purchase_price": 450000.0
+  },
+  "financial_details": {
+    "purchase_sale_price": 450000.0,
+    "earnest_money_amount": 10000.0,
+    "sale_commission_rate": "6%",
+    "commission_split_buy_side_percent": "3%",
+    "commission_split_sell_side_percent": "3%"
+  },
+  "contract_dates": {
+    "contract_agreement_date": "01/15/2026",
+    "closing_date": "02/28/2026",
+    "offer_date": "01/10/2026",
+    "offer_expiration_date": "01/12/2026",
+    "inspection_date": "01/20/2026"
+  },
+  "validation_errors": [],
+  "signature_fields": [],
+  "signature_mapping": {},
+  "missing_docs": [],
+  "human_approval_status": "Approved",
+  "approval_status": {
+    "requires_chain_approval": false,
+    "chain_config": null,
+    "approvers": [],
+    "current_level": 0,
+    "fully_approved": false
+  },
+  "rejection_history": [],
+  "target_system": "dotloop",
+  "sync_errors": [
+    "Unexpected error: DotloopClient.add_participant() missing 1 required positional argument: 'full_name'"
+  ],
+  "dotloop_loop_id": 311113230,
+  "dotloop_loop_url": "https://www.dotloop.com/m/loop?viewId=311113230"
+}
